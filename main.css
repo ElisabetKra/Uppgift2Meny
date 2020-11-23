@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: georgia;
+	text-align: center;
+}
+
+.backgroundImage {
+	background-image: url("img/persienn.jpg");
+	background-color: black;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+header {
+	color: white;
+    padding: 130px;
+}
+
+nav ul {
+	display: inline-flex;
+	list-style: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	background-color: #ca6776;
+	padding: 10px;	
+	
+}
+
+
+nav li {
+	list-style: none;
+	padding: 10px;
+}
+
+nav a {
+    background-color: none;
+	color:white;
+}
+
+a:link {
+  color: #821626;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #821626;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+h3 {
+	color: white;
+}
+
+
+article {
+	padding: 20px;
+	background-color: #ca6776;
+	margin-bottom:50px;
+	
+}
+article h3 {
+	color: black; padding: 5px;
+}
+
+article ul li{
+	color: white;
+	list-style: none;
+}
+
+
+section {	
+	margin-bottom: 50px;
+	padding: 20px;
+	color: white;
+	background-color: #ca6776;
+}
+
+section h3 {
+	color: black;
+	padding: 5px;
+}
+
+
+footer {
+	bottom: 0;
+	left: 0;
+	right:0;	
+}
+
+
+footer li {
+	background-color: #ca6776;
+	margin-top: 10px;
+	padding: 20px;
+	display: inline-flex;
+	list-style: none;
+}
+
+@media only screen and (max-width: 600px){
+	body{background-color: black;
+	}
+}
